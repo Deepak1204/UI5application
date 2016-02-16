@@ -46,6 +46,7 @@ sap.ui.core.UIComponent.extend("sap.hello.Component",{
 		},
 	},
 	init:function(){
+		
 		jQuery.sap.require("sap.m.routing.RouteMatchedHandler");
 		jQuery.sap.require("sap.ui.core.routing.HashChanger");
 		
