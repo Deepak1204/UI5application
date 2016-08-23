@@ -9,14 +9,17 @@ jQuery.sap.declare("sap.hello.Component");
 sap.ui.core.UIComponent.extend("sap.hello.Component",{
 	
 	metadata:{
+		
 		routing:{
+			
 			config:{
+				
 				viewType:"JS",
 				viewPath:"ui5app",
 				targetControl:"appid",
 				clearTarget:false,
 				transition:"slide"
-			},
+					},
 			routes:[
 			       {
 			    	   //this is the default page going to display 
@@ -43,8 +46,8 @@ sap.ui.core.UIComponent.extend("sap.hello.Component",{
 			       
 			        ]
 		
+				},
 		},
-	},
 	init:function(){
 		
 		jQuery.sap.require("sap.m.routing.RouteMatchedHandler");
